@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+.header, .hero {
+  background-color:#1F2937 ;
+  color: #F9FAF8;  
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+    color: #E5E7EB
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    padding: 100px;
+    gap: 50px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+
+button {
+    font-family: Roboto, sans-serif;
+    color: #F9FAF8;
+    font-weight: bold;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 8px 24px;
+}
+
+.button {
+    border: none;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.top {
+    width: 500px;
+    height: 200px;
+}
+
+.middle {
+    width:150px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+    gap: 30px;
+}
+
+.info-header {
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.pictures {
+    display: flex;
+    padding: 8px;
+}
+
+.quote-container {
+    padding: 100px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style:italic;
+}
+
+.thor {
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: #3882F6;
+    margin: 100px;
+    padding: 40px;
+    color:  #F9FAF8;
+    border-radius: 8px;
+}
+
+.action-right {
+    border-style: solid;
+}
+
+.action {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.action-subtext {
+    color:#E5E7EB
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 50px;
+}

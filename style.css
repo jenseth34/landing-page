@@ -13,7 +13,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 20px 100px;
+    padding: 20px 350px;
 }
 
 .logo {
@@ -36,8 +36,8 @@ a {
 
 .hero {
     display: flex;
-    padding: 100px;
-    gap: 50px;
+    padding: 100px 350px;
+    gap: 250px;
 }
 
 .title {
@@ -68,15 +68,19 @@ button {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    width: 500px;
 }
 
 .top {
     width: 500px;
-    height: 200px;
+    height: 250px;
 }
 
 .middle {
     width:150px;
+    border-radius: 8px;
+    border-color: #3882F6;
+    border-style: solid;
 }
 
 .information {
@@ -84,7 +88,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 100px;
+    padding: 50px 350px;
     gap: 30px;
 }
 
@@ -96,16 +100,29 @@ button {
 
 .pictures {
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 8px;
 }
 
+.picture-container {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+
 .quote-container {
-    padding: 100px;
+    padding: 100px 500px;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     justify-content: right;
     align-items: flex-end;
+    gap: 8px;
 }
 
 .quote {
@@ -124,9 +141,9 @@ button {
 .action-container {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 300px;
     background-color: #3882F6;
-    margin: 100px;
+    margin: 100px 350px;
     padding: 40px;
     color:  #F9FAF8;
     border-radius: 8px;
@@ -151,5 +168,5 @@ button {
     align-items: center;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 50px;
+    padding: 50px
 }
